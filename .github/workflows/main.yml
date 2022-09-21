@@ -6,7 +6,7 @@ on:
       - main
 
 env:
-  REPO: docker.pkg.github.com/${{ env.GITHUB_REPOSITORY }}
+  REPO: docker.pkg.github.com/${{ github.repository }}
 
 jobs:
   test:
