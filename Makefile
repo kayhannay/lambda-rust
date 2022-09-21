@@ -12,7 +12,7 @@ build:
 	@docker tag $(TAG) $(REPO):latest
 
 test: build
-	@tests/test.sh
+	@tests/test.sh $(REPO):latest
 
 debug: build
 	@docker run --rm -it \
