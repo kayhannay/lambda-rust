@@ -6,7 +6,7 @@ on:
       - main
 
 env:
-  REPO: docker.pkg.github.com/${{ github.repository }}
+  REPO: docker.pkg.github.com/${{ github.repository }}/lambda-rust
 
 jobs:
   test:
