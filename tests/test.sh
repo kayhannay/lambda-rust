@@ -68,6 +68,7 @@ package_all_dev_profile() {
 }
 
 for project in test-func test-multi-func test-func-with-hooks; do
+#for project in test-func; do
     cd "${HERE}"/"${project}"
     echo "👩‍🔬 Running tests for $project with image $IMAGE"
 
